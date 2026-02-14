@@ -72,6 +72,20 @@ TimeSeriesSplit used instead of random CV to prevent data leakage and respect ch
 * ROC AUC
 * Cross-Validation F1
 
+  Accuracy alone is not sufficient for trading signals.
+
+This project evaluates using:
+
+* F1 Score → balance of precision & recall
+
+* ROC-AUC → class separation strength
+
+* Confusion Matrix → false signal analysis
+
+* ROC Curve → threshold-independent performance
+
+* Cross-validated F1 → model stability
+
 ---
 
 ## 🔮 Next Day Prediction

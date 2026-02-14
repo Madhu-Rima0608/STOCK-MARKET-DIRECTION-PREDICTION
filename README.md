@@ -112,15 +112,31 @@ Compared:
 
 ---
 
-## 🖥 Dashboard Features (Streamlit Version)
+## 🖥 INTERACTIVE Dashboard Features (Streamlit Version)
 
-* Multi-stock input
+Streamlit app supports:
+
+* Multi-ticker input
+
+* Automatic model training per ticker
+
 * Model comparison table
+
 * Best model auto-selection
-* Probability meter
-* Confidence score
-* Feature importance chart
-* Strategy vs Market performance chart
+
+* Prediction probability panel
+
+* Confidence indicator
+
+* Feature importance chart (tree models)
+
+* Strategy vs Market return plot
+
+* Clean time-axis financial charts
+
+* Metric panels and progress bars
+
+**Changing the ticker dynamically rebuilds the full ML pipeline.**
 
 ---
 

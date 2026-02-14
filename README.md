@@ -142,11 +142,11 @@ Streamlit app supports:
 
 ## 🛠 Tech Stack
 
-Python, Pandas, NumPy
-Scikit-learn
-TA (technical indicators)
-Matplotlib
-Streamlit
+Python, Pandas, NumPy,
+Scikit-learn,
+TA (technical indicators),
+Matplotlib,
+Streamlit,
 yfinance
 
 ---
